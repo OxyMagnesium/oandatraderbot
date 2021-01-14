@@ -168,7 +168,7 @@ class ORBTrader:
                 self.trading = False
                 thread = threading.Thread(
                     target = self._open_position,
-                    args = (POS_LONG, ),
+                    args = (POS_SHORT, ),
                 )
                 thread.start()
 
